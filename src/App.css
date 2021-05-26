@@ -36,3 +36,66 @@
     transform: rotate(360deg);
   }
 }
+
+section {
+  display:flex;
+  flex-direction: row;
+  width:150;
+  height: 100;
+  margin-top: 50px;
+  overflow: scroll;
+  
+}
+
+body {
+background-image: radial-gradient(purple, black);
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: x-large;
+  color: white;
+  align-items: center;
+}
+
+
+
+.movieCard {
+  margin: 10px;
+  height: 400px;
+  color: white;
+  display: grid;
+
+}
+
+.movieCard img {
+  height: 300px;
+  width: 200px;
+  border: 1px dotted white;
+  
+}
+
+.nav {
+  background: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 50px;
+  border: none;
+}
+
+button {
+  background: black;
+  color: white;
+  width: 100px;
+  border:none;
+  font-size:medium ;
+}
+
+h2 {
+  color:turquoise;
+  font-size: xx-large;
+}
